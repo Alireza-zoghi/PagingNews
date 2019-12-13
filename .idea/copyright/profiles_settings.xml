@@ -1,0 +1,16 @@
+<component name="CopyrightManager">
+  <settings default="Alireza">
+    <module2copyright>
+      <element module="All" copyright="Alireza" />
+    </module2copyright>
+    <LanguageOptions name="JAVA">
+      <option name="fileLocation" value="3" />
+    </LanguageOptions>
+    <LanguageOptions name="__TEMPLATE__">
+      <option name="separateBefore" value="true" />
+      <option name="separateAfter" value="true" />
+      <option name="lenBefore" value="50" />
+      <option name="lenAfter" value="50" />
+    </LanguageOptions>
+  </settings>
+</component>
