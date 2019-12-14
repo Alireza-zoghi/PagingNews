@@ -9,6 +9,7 @@ import retrofit2.http.Query;
 /*************************************************
  * Created by AliReza Zoghi on 12/13/19 12:52 AM
  ************************************************/
+
 public interface NewsAPI {
 
     @GET("everything")

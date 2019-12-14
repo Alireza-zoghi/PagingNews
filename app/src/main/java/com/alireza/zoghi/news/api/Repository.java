@@ -1,4 +1,4 @@
-package com.alireza.zoghi.news.view.viewModel;
+package com.alireza.zoghi.news.api;
 
 import android.util.Log;
 
@@ -17,8 +17,9 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 /*************************************************
- * Created by AliReza Zoghi on 12/13/19 12:52 AM
+ * Created by AliReza Zoghi on 12/14/19 7:22 PM
  ************************************************/
+
 public class Repository {
     private static final String TAG = "Repository";
     private List<Articles> articles = new ArrayList<>();

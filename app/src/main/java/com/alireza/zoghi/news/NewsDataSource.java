@@ -1,4 +1,4 @@
-package com.alireza.zoghi.news.model;
+package com.alireza.zoghi.news;
 
 import android.util.Log;
 
@@ -7,6 +7,8 @@ import androidx.paging.PageKeyedDataSource;
 
 import com.alireza.zoghi.news.api.NewsAPI;
 import com.alireza.zoghi.news.api.RetrofitProvider;
+import com.alireza.zoghi.news.model.Articles;
+import com.alireza.zoghi.news.model.NewsResponse;
 
 import java.util.List;
 
@@ -22,8 +24,7 @@ public class NewsDataSource extends PageKeyedDataSource<Long, Articles> {
     private static final String TAG = "NewsDataSource";
     private NewsAPI newsAPI;
 
-    public NewsDataSource(NewsAPI newsAPI) {
-        this.newsAPI = newsAPI;
+    public NewsDataSource() {
     }
 
     @Override

@@ -6,6 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 /*************************************************
  * Created by AliReza Zoghi on 12/13/19 12:52 AM
  ************************************************/
+
 public class RetrofitProvider {
 
     private static Retrofit retrofit = null;
