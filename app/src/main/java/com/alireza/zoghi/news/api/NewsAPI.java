@@ -2,7 +2,7 @@ package com.alireza.zoghi.news.api;
 
 import com.alireza.zoghi.news.model.NewsResponse;
 
-import retrofit2.Call;
+import io.reactivex.Single;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
 
@@ -13,9 +13,6 @@ import retrofit2.http.Query;
 public interface NewsAPI {
 
     @GET("everything")
-    Call<NewsResponse> getNewsResponse(@Query("q") String search, @Query("sortBy") String sort, @Query("apiKey") String apiKey);
-
-    @GET("everything")
-    Call<NewsResponse> getNewsResponse(@Query("q") String search, @Query("sortBy") String sort, @Query("apiKey") String apiKey, @Query("page") long page);
+    Single<NewsResponse> getNewsResponse(@Query("q") String search, @Query("sortBy") String sort, @Query("apiKey") String apiKey, @Query("page") long page);
 
 }
